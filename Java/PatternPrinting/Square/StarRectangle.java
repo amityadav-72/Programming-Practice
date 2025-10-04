@@ -6,18 +6,28 @@ public class StarRectangle {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter the Number of Rows");
+        System.out.print("Enter the Number of Rows: ");
         int rows = sc.nextInt();
-        System.out.println("Enter the Number of Columns");
+        System.out.print("Enter the Number of Columns: ");
         int col = sc.nextInt();
 
         for (int i = 1; i <= rows; i++) {
             for (int j = 1; j <= col; j++) {
                 System.out.print("* ");
             }
-            System.out.println(); 
+            System.out.println();
         }
 
         sc.close();
     }
 }
+
+
+/* Result
+
+ * * * * *
+ * * * * *
+ * * * * *
+ * * * * *
+
+*/
