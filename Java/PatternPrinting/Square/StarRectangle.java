@@ -15,7 +15,7 @@ public class StarRectangle {
             for (int j = 1; j <= col; j++) {
                 System.out.print("* ");
             }
-            System.out.println(); // move to next line after each row
+            System.out.println(); 
         }
 
         sc.close();
