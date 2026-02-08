@@ -8,7 +8,7 @@ public class ArrayQuestion1 {
              int val = x-arr[i];
              for(int j=i+1; j<arr.length; j++){
                  if(val==arr[j]){
-                     System.out.println("The value is:" + i + " and " + j);
+                     System.out.println("The value is:" + i + " and "+  j);
                  }
              }
          }
