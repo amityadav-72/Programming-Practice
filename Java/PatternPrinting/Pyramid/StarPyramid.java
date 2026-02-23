@@ -8,7 +8,7 @@ public class StarPyramid {
         System.out.print("Enter the number :");
         int num = sc.nextInt();
 
-        int nsp=num-1;
+        int nsp=num-1; 
         int nst =1;
 
         for(int i=1; i<=num; i++) {
